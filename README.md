@@ -53,10 +53,7 @@ Proyecto-Carrito/
 
 ## 🧪 ¿Cómo probar el proyecto?
 
-1. Clona este repositorio o descarga los archivos.
-2. Abre `index.html` en tu navegador.
-3. Prueba a añadir cursos al carrito, eliminar uno o vaciarlo por completo.
-
+Simplemente accedemos a este link para probarlo, https://charming-parfait-fb5dd8.netlify.app/#
 ---
 
 ## 🚫 Limitaciones actuales
