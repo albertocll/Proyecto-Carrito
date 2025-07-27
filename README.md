@@ -66,6 +66,6 @@ Simplemente accedemos a este link para probarlo, https://charming-parfait-fb5dd8
 
 ## 🧑‍💻 Autor
 
-Desarrollado por albertocll
+Desarrollado por Alberto Claros
 
 ---
