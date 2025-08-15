@@ -1,71 +1,141 @@
-# 🛒 Carrito de la Compra - Web de Cursos
+🛒 Carrito de Compras
 
-Este proyecto es una implementación básica de un carrito de la compra para una web de cursos online. Ha sido desarrollado utilizando únicamente **HTML**, **CSS** y **JavaScript**, sin frameworks ni librerías externas.
+Aplicación web para gestionar un carrito de compras interactivo en una tienda de cursos online.
 
-## 📋 Características
+📋 Descripción
 
-- Añadir cursos al carrito haciendo clic en un botón.
-- Si se añade el mismo curso varias veces, se incrementa su cantidad en el carrito.
-- Eliminar un curso individual mediante una "X" al lado del producto.
-- Vaciar completamente el carrito con un botón dedicado.
-- Toda la lógica se gestiona en el navegador con JavaScript puro (Vanilla JS).
+Proyecto desarrollado como parte del aprendizaje de JavaScript Moderno en el curso de Juan Pablo De la Torre Valdez (Udemy).
+Esta aplicación permite a los usuarios agregar, eliminar y modificar productos en un carrito de compras, con cálculo automático del total.
 
-## ⚙️ Tecnologías utilizadas
+🚀 Características
 
-- **HTML5** – Estructura de la página.
-- **CSS3** – Estilos básicos del carrito.
-- **JavaScript (Vanilla)** – Lógica del carrito: agregar, eliminar, vaciar, y actualizar cantidades.
+✅ Añadir productos al carrito
 
-## 🚀 Cómo usar
+✅ Incrementar o disminuir cantidades de productos
 
-1. Clona este repositorio o descarga los archivos.
-2. Abre el archivo `index.html` en tu navegador.
-3. Haz clic en los botones de "Agregar al carrito" para probar la funcionalidad.
+✅ Eliminar productos individuales
 
-## 📁 Estructura del proyecto
+✅ Vaciar el carrito completo
+
+✅ Cálculo automático del total
+
+✅ Interfaz sencilla y fácil de usar
+
+🛠️ Tecnologías Utilizadas
+
+HTML5 - Estructura del proyecto
+
+CSS3 - Estilos personalizados
+
+JavaScript (ES6+) - Lógica de la aplicación
+
+DOM Manipulation - Interacción dinámica con elementos
+
+📁 Estructura del Proyecto
 Proyecto-Carrito/
 │
 ├── css/
-│ ├── custom.css # Estilos personalizados del proyecto
-│ ├── normalize.css # Normalización de estilos entre navegadores
-│ └── skeleton.css # Framework CSS ligero utilizado como base
-│
-├── img/ # Imágenes del proyecto
-│ ├── cart.png # Icono del carrito
-│ ├── curso1.jpg ... # Imágenes de los cursos
-│ ├── estrellas.png # Icono de puntuaciones
-│ ├── hero.jpg # Imagen principal
-│ ├── icono1.png ... # Otros íconos de la interfaz
-│ └── logo.jpg, lupa.png # Elementos visuales de navegación
-│
+│   └── custom.css      # Estilos personalizados
+├── img/                # Imágenes de los productos
 ├── js/
-│ └── app.js # Lógica del carrito (JS puro)
-│
-└── index.html # Página principal
+│   └── app.js          # Lógica principal de la aplicación
+├── index.html          # Página principal
+└── README.md           # Documentación del proyecto
 
-## 💡 Tecnologías Utilizadas
+🎯 Conceptos de JavaScript Aplicados
 
-- **HTML5** – Marcado semántico y estructura.
-- **CSS3** – Estilos personalizados y base de Skeleton.css.
-- **JavaScript (Vanilla)** – Lógica de interacción del carrito.
+Manipulación del DOM
 
----
+Event Listeners
 
-## 🧪 ¿Cómo probar el proyecto?
+Programación Orientada a Objetos (POO)
 
-Simplemente accedemos a este link para probarlo, https://charming-parfait-fb5dd8.netlify.app/#
----
+Clases y métodos
 
-## 🚫 Limitaciones actuales
+Validación de datos
 
-- No hay base de datos ni backend.
-- No se incluye autenticación ni gestión de usuarios.
-- No se persiste el contenido del carrito tras recargar la página.
+Manejo de formularios
 
----
+Template literals
 
-## 🧑‍💻 Autor
+Destructuring
 
-Desarrollado por Alberto Claros
+Arrow functions
 
----
+🌐 Demo en Vivo
+
+🔗 Ver Aplicación en Funcionamiento
+
+Prueba la aplicación directamente en tu navegador sin necesidad de instalación
+
+🚀 Instalación y Uso
+Opción 1: Usar la Demo Online
+
+Accede directamente: https://cartacademy.netlify.app/
+
+No requiere instalación
+
+Funciona en cualquier dispositivo con navegador
+
+Opción 2: Ejecutar Localmente
+Requisitos
+
+Navegador web moderno
+
+No requiere instalación de dependencias
+
+Pasos
+
+Clona el repositorio
+
+git clone https://github.com/albertocll/Proyecto-Carrito.git
+
+
+Navega al directorio
+
+cd Proyecto-Carrito
+
+
+Abre el archivo en tu navegador
+
+Doble clic en index.html
+
+O usa Live Server en VS Code
+
+💡 Cómo Usar la Aplicación
+
+Añade productos al carrito haciendo clic en el botón correspondiente
+
+Visualiza el carrito con los productos seleccionados
+
+Modifica las cantidades de los productos si es necesario
+
+Elimina productos individuales o vacía el carrito completo
+
+Observa el total actualizado automáticamente
+
+🎓 Objetivos de Aprendizaje
+
+Manipulación dinámica del DOM
+
+Implementación de clases en JavaScript
+
+Validación de formularios
+
+Manejo de eventos del usuario
+
+Mejores prácticas de código limpio
+
+📄 Licencia
+
+Este proyecto es de uso personal y educativo, basado en un ejercicio del curso de Juan Pablo De la Torre Valdez (Udemy).
+
+👤 Autor
+
+Alberto – GitHub
+
+⭐ ¡Dale una estrella al proyecto si te gustó! ⭐
+
+📸 Preview
+
+🌐 Probar la Aplicación
