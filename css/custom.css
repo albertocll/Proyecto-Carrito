@@ -1,0 +1,282 @@
+html {
+    font-size: 62.5%;
+}
+body {
+    background-color: #f8f8f8;
+    color: #333;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    text-align: center;
+    color: #37699b;
+}
+h2 {
+    font-size: 3rem;
+    color: #37699b;
+}
+h4 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #37699b;
+}
+
+/* === HEADER === */
+header {
+    padding: 10px 20px;
+    background: #37699b;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+.header-row {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+}
+
+/* Logo */
+header img#logo {
+    height: 70px;
+    width: 70px;           
+    object-fit: cover;     
+    border-radius: 50%;    
+    border: 2px solid #fff;
+    justify-self: start;
+}
+
+/* Navegación centrada */
+.nav-header {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+}
+.nav-header a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+.nav-header a:hover {
+    color: #e67e22;
+}
+
+/* Carrito a la derecha */
+.carrito-container {
+    justify-self: end;
+}
+#img-carrito {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    filter: brightness(0) invert(1);
+    transition: transform 0.2s;
+}
+#img-carrito:hover {
+    transform: scale(1.1);
+}
+
+ul {
+    list-style: none;
+}
+
+/* Botón borrar curso */
+.borrar-curso {
+    background-color: #e74c3c;
+    border-radius: 50%;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* === HERO === */
+#hero {
+    background-image:url(../img/hero.jpg);
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+}
+#encabezado {
+    margin: 30px 0;
+}
+.contenido-hero {
+    margin-top: 80px;
+    color: white;
+    text-shadow: 1px 1px 4px rgba(0,0,0,0.6);
+}
+.contenido-hero form {
+    position: relative;
+    margin-bottom: 0;
+}
+.contenido-hero form #buscador {
+    height: 50px;
+    margin-bottom: 0;
+}
+.contenido-hero form .submit-buscador {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    padding: 0;
+    display: block;
+    text-indent: -9999px;
+    width: 50px;
+    background-image: url(../img/lupa.png);
+    background-position: right center;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+/* === BARRA === */
+.barra {
+    padding: 20px 0;
+    background: linear-gradient(to right, #e67e22, #27ae60);
+}
+.barra p {
+    margin: 0;
+    color: white;
+    font-weight: 600;
+}
+.icono {
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 60px;
+    background-size: 30px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+@media (min-width: 750px) {
+    .icono {
+        margin-bottom: 0;
+    }
+}
+.icono1 {
+    background-image: url(../img/icono1.png);
+}
+.icono2 {
+    background-image: url(../img/icono2.png);
+}
+.icono3 {
+    background-image: url(../img/icono3.png);
+}
+
+/* === LISTA DE CURSOS === */
+#lista-cursos .row {
+    margin-bottom: 20px;
+}
+.agregar-carrito {
+    margin: 10px 0;
+    background-color: #e67e22;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+.agregar-carrito:hover {
+    background-color: #d35400;
+}
+
+/* === CARDS UNIFORMES === */
+.card {
+    text-align: center;
+    border: 1px solid #e1e1e1;
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.2s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+.card:hover {
+    transform: scale(1.02);
+}
+.card img {
+    object-fit: cover;
+    height: 200px;
+    width: 100%;
+}
+@media (min-width: 550px) {
+    .card {
+        text-align: left;
+    }
+}
+.info-card {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+.info-card p,
+.card h4 {
+    margin-bottom: 5px;
+}
+.info-card .precio {
+    text-decoration: line-through;
+    font-size: 18px;
+    margin-top: 10px;
+    color: #7f8c8d;
+}
+.info-card .precio span {
+    font-weight: 700;
+    font-size: 22px;
+    color: #27ae60;
+}
+
+/* === VALORACIÓN === */
+.valoracion {
+    color: #f1c40f;
+    font-size: 1.4rem;
+    margin: 5px 0;
+}
+
+/* === CARRITO DESPLEGABLE === */
+.submenu {
+    position: relative;
+}
+#carrito {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    z-index: 1000;
+    background-color: white;
+    padding: 20px;
+    min-height: 200px;
+    min-width: 300px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+#carrito.activo {
+    display: block;
+}
+.vacio {
+    padding: 10px;
+    background-color: #e74c3c;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+}
+
+/* === FOOTER === */
+.footer {
+    margin-top: 40px;
+    background: #2c3e50;
+    color: white;
+    padding: 40px 0;   
+}
+.footer .menu a {
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #ecf0f1;
+    transition: color 0.3s;
+}
+.footer .menu a:hover {
+    color: #e67e22;
+}
