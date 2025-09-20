@@ -44,7 +44,7 @@ Proyecto-Carrito/
 
 🌐 Demo en Vivo
 
-🔗 *[Próximamente en Netlify]*  
+🔗 https://mesacart.netlify.app/
 
 🚀 Instalación y Uso
 
@@ -89,3 +89,4 @@ Alberto – GitHub
 ⭐ ¡Dale una estrella al proyecto si te gustó! ⭐
 
 📸 ![preview](image.png)
+
